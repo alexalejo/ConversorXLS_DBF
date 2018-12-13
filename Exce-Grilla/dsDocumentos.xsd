@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDocumentos" targetNamespace="http://tempuri.org/dsDocumentos.xsd" xmlns:mstns="http://tempuri.org/dsDocumentos.xsd" xmlns="http://tempuri.org/dsDocumentos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDocumentos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsDocumentos" msprop:Generator_DataSetName="dsDocumentos" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Excel" msprop:Generator_UserTableName="Excel" msprop:Generator_RowDeletedName="ExcelRowDeleted" msprop:Generator_RowChangedName="ExcelRowChanged" msprop:Generator_RowClassName="ExcelRow" msprop:Generator_RowChangingName="ExcelRowChanging" msprop:Generator_RowEvArgName="ExcelRowChangeEvent" msprop:Generator_RowEvHandlerName="ExcelRowChangeEventHandler" msprop:Generator_TableClassName="ExcelDataTable" msprop:Generator_TableVarName="tableExcel" msprop:Generator_RowDeletingName="ExcelRowDeleting" msprop:Generator_TablePropName="Excel">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ACCION" msprop:Generator_UserColumnName="ACCION" msprop:Generator_ColumnVarNameInTable="columnACCION" msprop:Generator_ColumnPropNameInRow="ACCION" msprop:Generator_ColumnPropNameInTable="ACCIONColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Articulo" msprop:Generator_UserTableName="Articulo" msprop:Generator_RowDeletedName="ArticuloRowDeleted" msprop:Generator_RowChangedName="ArticuloRowChanged" msprop:Generator_RowClassName="ArticuloRow" msprop:Generator_RowChangingName="ArticuloRowChanging" msprop:Generator_RowEvArgName="ArticuloRowChangeEvent" msprop:Generator_RowEvHandlerName="ArticuloRowChangeEventHandler" msprop:Generator_TableClassName="ArticuloDataTable" msprop:Generator_TableVarName="tableArticulo" msprop:Generator_RowDeletingName="ArticuloRowDeleting" msprop:Generator_TablePropName="Articulo">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Ivas" msprop:Generator_UserTableName="Ivas" msprop:Generator_RowDeletedName="IvasRowDeleted" msprop:Generator_RowChangedName="IvasRowChanged" msprop:Generator_RowClassName="IvasRow" msprop:Generator_RowChangingName="IvasRowChanging" msprop:Generator_RowEvArgName="IvasRowChangeEvent" msprop:Generator_RowEvHandlerName="IvasRowChangeEventHandler" msprop:Generator_TableClassName="IvasDataTable" msprop:Generator_TableVarName="tableIvas" msprop:Generator_RowDeletingName="IvasRowDeleting" msprop:Generator_TablePropName="Ivas">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Excel1" msprop:Generator_UserTableName="Excel1" msprop:Generator_RowDeletedName="Excel1RowDeleted" msprop:Generator_RowChangedName="Excel1RowChanged" msprop:Generator_RowClassName="Excel1Row" msprop:Generator_RowChangingName="Excel1RowChanging" msprop:Generator_RowEvArgName="Excel1RowChangeEvent" msprop:Generator_RowEvHandlerName="Excel1RowChangeEventHandler" msprop:Generator_TableClassName="Excel1DataTable" msprop:Generator_TableVarName="tableExcel1" msprop:Generator_RowDeletingName="Excel1RowDeleting" msprop:Generator_TablePropName="Excel1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ACCION" msprop:Generator_UserColumnName="ACCION" msprop:Generator_ColumnPropNameInRow="ACCION" msprop:Generator_ColumnVarNameInTable="columnACCION" msprop:Generator_ColumnPropNameInTable="ACCIONColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stocks" msprop:Generator_UserTableName="stocks" msprop:Generator_RowDeletedName="stocksRowDeleted" msprop:Generator_TableClassName="stocksDataTable" msprop:Generator_RowChangedName="stocksRowChanged" msprop:Generator_RowClassName="stocksRow" msprop:Generator_RowChangingName="stocksRowChanging" msprop:Generator_RowEvArgName="stocksRowChangeEvent" msprop:Generator_RowEvHandlerName="stocksRowChangeEventHandler" msprop:Generator_TablePropName="stocks" msprop:Generator_TableVarName="tablestocks" msprop:Generator_RowDeletingName="stocksRowDeleting">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
